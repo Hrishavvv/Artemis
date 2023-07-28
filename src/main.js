@@ -1,5 +1,6 @@
 // JavaScript (script.js)
 export const createYouTubePlayer = () => {
+  
 const apiKeys = [
   'AIzaSyAHIb4D8GqBy94f1VA2TZEh26qkeEM0Z_8', // Replace 'API_KEY_1', 'API_KEY_2', etc. with your actual YouTube API keys
   'AIzaSyC3i3luHWU-RdPoaztR5Do4A0Uk2SDNSHE',
@@ -208,3 +209,4 @@ function seekBackward() {
 
 forwardBtn.addEventListener('click', seekForward);
 backwardBtn.addEventListener('click', seekBackward);
+}
